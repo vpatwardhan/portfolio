@@ -1,0 +1,102 @@
+@font-face{
+	font-family: pretty;
+	src: url("peach-sundress.ttf");
+}
+h1{
+	margin-top: 30px;
+	font-family: pretty;
+	text-align: center;
+	font-size: 150px;
+	margin-bottom: 10px;
+}
+button{
+	position: absolute;
+	top: 150px;
+	right: 200px;
+	height: 100px;
+	width: 100px;
+}
+img{
+	position:relative;
+	top: 10px;
+	height: 300px;
+	width: 300px;
+}
+.parallax-window{
+	width: 1025px;
+	height: 300px;
+}
+body{
+	background-image: url("http://i.imgur.com/3YOQM3Q.png");
+	background-repeat: no-repeat;
+	background-size: 1650px;
+	background-color: #00001E;
+	color: white;
+	font-family: serif;
+	font-size: 20px;
+}
+.main{
+	margin-left: 10px;
+}
+img{
+	width: 35%;
+	height: 320px;
+	margin-left: 15%;
+	top:0;
+	position: relative;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+.navbar a:hover{
+	text-decoration: none;
+}
+.navbar{
+	background-color: #00001E;
+	border: none;
+	font-family: sans-serif;
+}
+.btn-primary{
+	color: white;
+}
+.spacer{
+	position: relative;
+	height: 20px;
+}
+.footer{
+	text-align: center;
+	position: relative;
+    bottom: 0;
+    font-size: 14px;
+    width: 100%;
+    height: 100px;
+    background-color: #00001E;
+    margin-top: 30px;
+}
+.carousel-caption{
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #00001E, transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #00001E, transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #00001E, transparent); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #00001E, transparent);
+	position: absolute;
+	margin-left: 30%;
+	top: 0;
+	height: 450px;
+	width: 35%;
+	border-radius: 5px;
+}
+
+.robotCarousel img{
+	height:500px;
+	width: 100px;
+}
